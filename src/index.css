@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+#root {
+  max-width: 100%;
+}
+
 body {
   font-family: open sans;
 }
@@ -14,20 +18,83 @@ header {
   background-color: white;
 }
 
+/* regole main */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Regole contenitori */
+
+/* contenitore header */
 .container {
   margin: 0 auto;
 }
 
-.row {
+/* contenitore main */
+.container-content {
+  background-color: black;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  /* altezza provvisoria */
+  height: 150px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  padding: 20px;
+}
+
+.container-cards a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+
+.container-content div {
+  width: 87%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+
   align-items: center;
 }
+
+.bg-blue {
+  background-color: rgb(17, 55, 248);
+  height: 200px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+
 
 /* regole logo */
 #logo {
   width: 80px;
+}
+
+.logos {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
 }
 
 /* regole nav-bar */
@@ -37,6 +104,23 @@ header {
 
 }
 
+/* regole main nav bar */
+.main-bar {
+  justify-content: center;
+
+}
+
+.main-bar ul {
+  justify-content: center;
+
+}
+
+.main-bar .nav-bar,
+li {
+  gap: 70px;
+}
+
+
 .nav-bar li a {
   text-decoration: none;
   color: black;
@@ -45,4 +129,11 @@ header {
 
 .nav-bar li {
   list-style: none;
+}
+
+/* regole di stile */
+#content {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
 }

@@ -1,13 +1,13 @@
 // Header.jsx
 export default function Header() {
     return (
-        <header class="container">
-            <div class="row">
+        <header className="container">
+            <div className="row">
                 <div>
                     <img src="./public/dc-logo.png" alt="" id="logo" />
                 </div>
                 <div>
-                    <ul class="nav-bar">
+                    <ul className="nav-bar">
                         <li>
                             <a href="#">CHARACTERS</a>
                         </li>
