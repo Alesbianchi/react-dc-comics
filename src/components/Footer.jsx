@@ -1,9 +1,9 @@
-export default function Footer() {
+export default function Footer(props) {
     return (
         <footer>
-            <div class="footer-container">
+            <div className="footer-container">
 
-                <div class="column">
+                <div className="column">
                     <h3>DC COMICS</h3>
                     <ul>
                         <li><a href="#">Characters</a></li>
@@ -15,13 +15,13 @@ export default function Footer() {
                         <li><a href="#">News</a></li>
                     </ul>
 
-                    <h3 class="shop">SHOP</h3>
+                    <h3 className="shop">SHOP</h3>
                     <ul>
                         <li><a href="#">Shop DC</a></li>
                         <li><a href="#">Shop DC Collectibles</a></li>
                     </ul>
                 </div>
-                <div class="column">
+                <div className="column">
                     <h3>DC</h3>
                     <ul>
                         <li><a href="#">Terms of Use</a></li>
@@ -37,7 +37,7 @@ export default function Footer() {
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="column">
+                <div className="column">
                     <h3>SITES</h3>
                     <ul>
                         <li><a href="#">DC</a></li>
@@ -48,7 +48,7 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <div class="logo-background">
+            <div className="logo-background">
 
             </div>
 
