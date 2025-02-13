@@ -2,6 +2,7 @@ export default function Footer() {
     return (
         <footer>
             <div class="footer-container">
+
                 <div class="column">
                     <h3>DC COMICS</h3>
                     <ul>
@@ -49,6 +50,20 @@ export default function Footer() {
             </div>
             <div class="logo-background">
 
+            </div>
+
+            <div className="footer-bottom">
+                <div className="footer-container last-container">
+                    <button>SIGN-UP NOW!</button>
+                    <div className="social">
+                        <span>FOLLOW US</span>
+                        <a href="#"><img src="./img/footer-facebook.png" alt="Facebook" /></a>
+                        <a href="#"><img src="./img/footer-twitter.png" alt="Twitter" /></a>
+                        <a href="#"><img src="./img/footer-youtube.png" alt="YouTube" /></a>
+                        <a href="#"><img src="./img/footer-pinterest.png" alt="Pinterest" /></a>
+                        <a href="#"><img src="./img/footer-periscope.png" alt="Periscope" /></a>
+                    </div>
+                </div>
             </div>
 
         </footer>

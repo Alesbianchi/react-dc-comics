@@ -140,12 +140,12 @@ li {
   font-weight: bold;
 }
 
-/* regole footer */
+/* regole prima parte footer */
 footer {
   background-image: url(./assets/img/footer-bg.jpg);
   background-size: contain;
   height: 500px;
-  overflow: hidden;
+
 }
 
 .footer-container {
@@ -163,7 +163,9 @@ footer {
 .column {
   text-align: left;
   margin-right: 3%;
+  padding-bottom: 3%;
 }
+
 
 
 h3 {
@@ -198,4 +200,40 @@ ul li a {
 ul li a:hover {
   opacity: 1;
   color: #007bff;
+}
+
+
+/* seconda parte footer */
+.footer-bottom {
+  background-color: #303030;
+  padding: 10px 0;
+}
+
+.last-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+button {
+  border: 1px solid #0282f9;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: inherit;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social span {
+  color: #0640ff;
+  font-weight: bold;
 }
