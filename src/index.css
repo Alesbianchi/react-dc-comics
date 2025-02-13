@@ -114,12 +114,6 @@ main {
 
 .main-bar ul {
   justify-content: center;
-
-}
-
-.main-bar .nav-bar,
-li {
-  gap: 70px;
 }
 
 
