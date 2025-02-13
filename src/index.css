@@ -127,6 +127,22 @@ main {
   list-style: none;
 }
 
+
+/* effetto active navbar */
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 50px;
+  border-bottom: 3px solid transparent;
+
+}
+
+.nav-bar a.active {
+  color: #007bff;
+  border-bottom: 5px solid #007bff;
+}
+
 /* regole di stile */
 #content {
   color: white;
