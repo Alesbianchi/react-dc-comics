@@ -86,10 +86,6 @@ img {
 }
 
 
-.container-content div {
-  align-items: center;
-}
-
 .bg-blue {
   background-color: rgb(17, 55, 248);
   height: 200px;

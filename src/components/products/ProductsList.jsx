@@ -161,7 +161,9 @@ export default function ProductsList() {
 
         <div >
             <div className="container card-container">
-                {products.map(product => <ProductCard key={product.id} />)}
+                {products.map(product => <ProductCard key={product.id}
+                    productInfo={product} />)}
+
             </div>
 
 
