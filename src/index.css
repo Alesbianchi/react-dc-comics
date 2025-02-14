@@ -36,11 +36,27 @@ main {
 .container-content {
   background-color: black;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   /* altezza provvisoria */
-  height: 150px;
+  /* height: 150px; */
   z-index: 9999;
 }
+
+
+
+
+.prod-card {
+  flex-basis: 25%;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #ccc;
+
+}
+
+
+
+
 
 .container-cards {
   display: flex;
