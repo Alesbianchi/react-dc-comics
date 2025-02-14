@@ -47,10 +47,13 @@ export default function Footer(props) {
                         <li><a href="#">DC Power Visa</a></li>
                     </ul>
                 </div>
-            </div>
-            <div className="logo-background">
+
+                <div className="logo-background">
+                    <img src="img/dc-logo-bg.png" alt="" />
+                </div>
 
             </div>
+
 
             <div className="footer-bottom">
                 <div className="footer-container last-container">

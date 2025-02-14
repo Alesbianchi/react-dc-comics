@@ -1,10 +1,10 @@
+import ProductsList from "./products/ProductsList.jsx";
+
 export default function Main() {
     return (
         <main>
             <section className="container-content">
-                <div>
-                    <div id="content"> Content goes here </div>
-                </div>
+                <ProductsList />
             </section>
 
             <section>
