@@ -1,3 +1,5 @@
+import ProductCard from "./ProductCard.jsx";
+
 export default function ProductsList() {
     const products = [
         {
@@ -157,9 +159,11 @@ export default function ProductsList() {
 
     return (
 
-        <div className="prod-card">
-            <div id="content">&minus;&minus;&gt; Content goes here!!! &lt;&minus;&minus; </div>
-            {products.map(product => <div key={product.id}>{product.title}</div>)}
+        <div >
+            <div className="container card-container">
+                {products.map(product => <ProductCard key={product.id} />)}
+            </div>
+
 
         </div>
 
